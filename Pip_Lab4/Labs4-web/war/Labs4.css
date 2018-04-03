@@ -1,0 +1,315 @@
+@CHARSET "UTF-8";
+
+.header{
+	width: 100%;
+	height: 170px;
+	border: 2px solid grey;
+}
+
+.header tr:nth-child(1){
+	float: right;
+}
+
+.header tr:nth-child(4){
+	float: right;
+}
+
+.name_lab{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.title_lab{
+	margin-left: calc((100% - 160px)/2);
+	margin-bottom: 30px;
+}
+
+.var_lab{
+	margin-left: calc((100% - 90px)/2);
+	margin-bottom: 50px;
+}
+
+.group_lab{
+	float: right;
+	color: white;
+}
+
+.emptyPanel{
+	margin-top: 100px;
+}
+
+#content{
+  color: white;	
+	text-shadow: black 2px 2px 2px;
+}
+
+#body{
+/* 	background-image: url(ITMO_back.jpg);
+	background-size:  initial;
+	background-size: 100%; Современные браузеры
+	background-repeat: no-repeat; */
+  background: url(ITMO_back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title_lab{
+/* 	margin-left: calc((100% + 260px)/2); */
+/*   margin: 0 auto; */
+}
+
+.var_lab{
+/* 	margin-left: calc((100% + 368px)/2); */
+}
+
+.name_lab{
+/* 	margin-left: calc((100% + 590px)/2); */
+	float: right;
+}
+
+.group_lab{
+/* 	margin-left: calc((100% + 890px)/2); */
+}
+
+.title_lab, .var_lab, .name_lab, .group_lab{
+	font-size: 16px;
+}
+
+.title_lab{
+	margin-top: 15px;
+}
+
+#login{
+	margin: 15px 39%;
+}
+
+.login_lab, .password_lab, .signIn_lab{
+	margin: 15px auto;
+	font-size: 18px;
+	text-align: center;
+}
+.login_lab, .password_lab{
+	margin: 0px auto;
+	text-align: left;
+}
+
+.login_text2, .password_text2{
+  border: 1px solid red;
+	height: 20px;
+}
+
+#loginContainer table{
+	margin: 0 auto;
+	width: 250px;
+}
+
+.password_text, .login_text, .password_text2, .login_text2{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login_but{
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.error_lab{
+	font-size: 17px;
+	color: white;
+	margin: 5px;
+    text-align: center;
+	text-shadow: red 3px 3px 3px;
+}
+
+.success_lab{
+	font-size: 17px;
+	color: white;
+	margin: 5px;
+    text-align: center;
+	text-shadow: green 3px 3px 3px;
+}
+
+.x_but, .r_but, .checked{
+	margin: 5px;
+	height: 30px;
+	border-radius: 6px;
+}
+
+.x_but:hover, .r_but:hover, .send_but:hover, .checked:hover, .exitSession_but:hover{
+	background: #7fc7ff;
+	border-radius: 8px;
+}
+
+.x_but:active, .r_but:active, .send_but:active, .checked:active{
+/* 	color: white; */
+	background: yellow;
+}
+
+.x_lab, .y_lab, .r_lab{
+  margin-right: 5px;	
+	margin-top: 2px;
+	font-size: 15px;
+}
+
+.checked{
+	background: yellow;
+}
+
+.y_text_error{
+	border: 2px solid red;
+}
+
+#firstPanel div table{
+	margin: 15px;	
+}
+
+#firstPanel div table:first-child tr{
+	height: 40px;
+}
+
+#firstPanel{
+	width: 600px;
+}
+
+#thirdPanel{
+	width: 100%;
+	height: 100%;
+}
+
+/* #firstPanel div table:first-child tr{
+	margin-top: 200px;
+	height: 100px;
+  background: yellow;
+}
+
+#firstPanel div table:first-child td:nth-child(2n) button{
+	margin-top: 20px;
+  background: red;
+} */
+
+.login_but{
+	margin-left: 3px;
+	width: 120px;
+	height: 26px;
+	border-radius: 7px;
+}
+
+.login_but:hover{
+	background: #7fc7ff;
+}
+
+
+#secondPanel{
+  float: right;
+	margin-top: -200px;
+}
+
+.canvas{
+	background: #e6e6fa;
+	opacity: .8;
+}
+
+.table{
+	width: 700px;
+	margin-left: 150px;
+}
+
+.table th{
+	text-align: center;
+	border: 3px solid white;
+	width: 100px;
+	color: white;
+	font-size: 20px;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.table td{
+	border: 1px solid white;
+}
+
+.table tr{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 1032px) {
+	#firstPanel{
+		width: 300px;
+		margin-left: calc((100% - 550px)/2);
+	}
+	#secondPanel{
+		margin-top: 0px;
+		margin-left: calc((100% - 350px)/2);
+		float: left
+	}
+	.group_lab{
+		margin-top: -10px;
+	}
+	.x_lab, .r_lab{
+		width: 78px;
+	}
+	#thirdPanel{
+		margin-top: 200px;	
+	}
+	.table{
+  	margin-left: calc((100% - 700px)/2);
+    width: 350px;
+	  margin-top: 150px;
+	}
+}
+
+@media (max-width: 860px) {
+	.header{
+		color: white;
+	}
+	#loginContainer{
+		margin-left: -130%;
+	}
+	#firstPanel{
+		width: 100%;
+	}
+	#firstPanel table tr{
+		width: 100%;
+	}
+	#name{
+		font-size: 18px;
+	}
+	.send_but{
+		margin-left: 57%;
+	}
+	table:last-child{
+		width: 400px;
+	}
+	#firstPanel table:first-child{
+		margin-left: 95px;
+		width: 350px;
+	}
+	#firstPanel table:nth-child(3){
+		margin-left: 103px;
+	}
+	.y_lab{
+		width: 80px;
+    margin-left: 140px;
+	}
+	.r_lab, .x_lab{
+		display: none;
+	}
+	.x_but, .r_but{
+    width: 27px;
+		font-size: 10px;
+	}
+	#firstPanel table:first-child td{
+		width: 10px;
+	}
+	.table{
+		margin-top: 0px !important;
+	  margin-top: 150px;
+	}
+	#thirdPanel{
+		width: 350px;
+		margin-left: calc((100% - 100px)/2);
+	}
+}
