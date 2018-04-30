@@ -11,4 +11,4 @@
 
 
 **Вариант 9**
-[![картинка](https://yandex.ru/collections/card/5ae6c771acbcf6dfdd47716f/ "картинка")](https://yandex.ru/collections/card/5ae6c771acbcf6dfdd47716f/)
+![картинка](https://yandex.ru/collections/card/5ae6c771acbcf6dfdd47716f/)
