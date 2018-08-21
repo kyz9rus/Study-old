@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+#Catalogs{
+  background: none;
+  margin-top: 100px;
+}
+
+.catalog{
+  width: 20% !important;
+  margin-left: 16% !important;;
+}
+
+#descCatalogs p{
+  color: black;
+  text-shadow: white 0px 0px 0px;
+}
+
+@media(max-width: 812px){
+  .catalog{
+    width: 68% !important;
+    margin-top: 30% !important;
+  }
+  
+  .catalog p{
+    color: black;
+    text-shadow: white 0px 0px 0px;
+  }
+  
+  #Catalogs{
+    height: 1500px !important;
+    margin-bottom: 380px;
+  } 
+}
+
+@media(max-width: 1040px) and (min-width: 812px){
+  .catalog p{
+    font-size: 12px !important;
+    color: black;
+    text-shadow: white 0px 0px 0px;
+  }
+  
+  .catalog button{
+    width: 10px;
+    height: 10px;
+    padding: 27px;
+  }
+}
