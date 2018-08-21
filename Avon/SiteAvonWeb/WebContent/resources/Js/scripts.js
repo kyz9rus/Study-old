@@ -123,10 +123,9 @@ jQuery(document).ready(function() {
 		checkWidth($(window).width());
 	});
 	
-	// Скорлл по нажатию кнопки Каталоги AVON
+	// Переход на страницу с каталогами
 	$('#CatalogsBut').click(function(){
 		$(location).attr('href','Catalogs.html');
-//		window.scrollTo(0, document.getElementById("Catalogs").scrollHeight + 1295);
 	});
 	
 });

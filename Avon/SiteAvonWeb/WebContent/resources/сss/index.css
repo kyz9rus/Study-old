@@ -51,6 +51,7 @@ a:hover{
 .smallMenu button{
   width: 100%;
   height: 100%;
+  margin-right: 14px;
   padding: 0px;
   border: 0px solid black;
   background: none;
@@ -74,7 +75,7 @@ a:hover{
 
 .headerButtons{
   font-size: 15px;
-  width: 160px;
+  width: 150px;
   border-radius: 12px;
 }
 
@@ -111,10 +112,6 @@ a:hover{
 .content{
   margin: 60px 20px;
   text-align: center;
-  flex: 1 0 auto;
-}
-
-.footer{
   flex: 1 0 auto;
 }
 
@@ -344,15 +341,22 @@ html, body {
   flex: 1 0 auto;
 }
 
-
-
-#footer{
-  flex: 0 0 auto;
+.footer{
   height: 50px;
-  margin-top: 40px;
-  border-block-start: 1px solid black;
+  flex: 1 0 auto;
+  background: rgb(97,129,170);
 }
 
+.footer h6{
+  float: left;
+  margin: 13px;
+  color: white;
+}
+
+.footer a{
+  float: right;
+  margin: 13px;
+}
 
 @media(max-width: 800px){
   body{
@@ -425,5 +429,24 @@ html, body {
   #Catalogs{
     height: 1500px;
   }
+}
+
+@media(max-width: 663px){
+  .footer{
+    height: 90px;
+  }
   
+  .footer a{
+    float: left;
+  }
+  
+  .footer h6{
+    margin-bottom: 0px;
+  }
+}
+
+@media(max-width: 388px){
+  .footer a, .footer h6{
+    font-size: 13px;
+  }
 }
