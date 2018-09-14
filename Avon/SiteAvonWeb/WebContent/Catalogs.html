@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Твой красивый бизнес с AVON</title>
+	<title>Каталоги</title>
 	
  	<link rel="shortcut icon" href="resources/Img/favicon.ico" type="image/x-icon"/>
 	
@@ -18,8 +18,9 @@
 	
 	<script> 
 		$(function(){
-		  $(".header").load("resources/html/header.html");
-		  $(".footer").load("resources/html/footer.html");
+			$(".firstHeader").load("resources/html/firstHeader.html");
+			$(".secondHeader").load("resources/html/secondHeader.html");
+		  	$(".footer").load("resources/html/footer.html");
 		});
 	</script>
 	
@@ -28,21 +29,31 @@
 <body>
 <div class="wrapper">
 	<div class="wrapperForFooter">
-		<div class="header"></div>
+		<!-- <div class="header"></div> -->
+		<div class="firstHeader"></div>
+		
+		<div class="mainPart">
+			<div class="secondHeader"></div>
+			
+			<!-- <script src="resources/Js/scripts.js"></script> -->
+			
+			<div class="altHeader" align="center">
+				<p class="mainText">Каталоги Avon</p>
+			</div>
+		</div>
+		
 		
 		<div class="content">
 			<div id="Catalogs">
-				<p>Каталоги Avon</p>
-				
 				<div class="catalog">
-					<img id="imgCat1" src="resources/catalogs/12.jpg" alt=""></img>
+					<img id="imgCat1" src="resources/catalogs/12.jpg"/>
 					<p id="textCat1"><b>Avon </b></p>
 					
 					<a href="https://drive.google.com/drive/u/0/folders/12jMo8T4MNH8Gzhw5fxTh2vpyhJAM0A1V?ogsrc=32" download=""><button></button></a>
 				</div>
 				
 				<div class="catalog">
-					<img id="imgCat2" src="resources/catalogs/11.jpg" alt=""></img>
+					<img id="imgCat2" src="resources/catalogs/11.jpg"/>
 					<p id="textCat2"><b>Avon </b></p>
 					
 					<a href="https://drive.google.com/drive/u/0/folders/12jMo8T4MNH8Gzhw5fxTh2vpyhJAM0A1V?ogsrc=32" download=""><button></button></a>

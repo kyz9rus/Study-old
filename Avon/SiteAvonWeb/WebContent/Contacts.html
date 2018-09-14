@@ -19,7 +19,8 @@
 	
 	<script> 
 		$(function(){
-		  $(".header").load("resources/html/header.html");
+		  $(".firstHeader").load("resources/html/firstHeader.html");
+		  $(".secondHeader").load("resources/html/secondHeader.html");
 		  $(".footer").load("resources/html/footer.html");
 		});
 	</script>
@@ -29,13 +30,20 @@
 <body>
 <div class="wrapper">
 	<div class="wrapperForFooter">
-		<div class="header"></div>
+		<div class="firstHeader"></div>
+		
+		<div class="mainPart">
+			<div class="secondHeader"></div>
+			
+			<div class="altHeader" align="center">
+				<p class="mainText">Контакты</p>
+			</div>
+		</div>
 		
 		<div class="content">
-			<p class="mainText">Контакты</p>
 			<div class="featurebox col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="row" align="center">
-					<div id="Information" class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
+					<div id="Information" class="col-lg-9 col-md-9 col-sm-7 col-xs-9">
 						<a id="linkVK" href="https://vk.com/id1514448">Константинова Алина<br/>(Менеджер AVON по Санкт-Петербургу)</a><br/><br/>
 						<p>Телефон: <a id="telephone" href="tel:+79117180445">8(911)718-04-45</a></p>
 						<p>Skype: <a href="skype:alina.konstantinova5">alina.konstantinova5</a></p>
@@ -45,63 +53,53 @@
 						<p>Я в Instagram: <a href="https://www.instagram.com/alinka_kons/">https://www.instagram.com/alinka_kons/</a></p><br/>
 					</div>
 					
-					<div class="col-lg-4 col-md-2 col-sm-1 col-xs-1"></div>
+					<!-- <div class="col-lg-4 col-md-2 col-sm-1 col-xs-1"></div> -->
 					
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-						<img id="Avatar" src="resources/Img/avatar.jpg"></img>
+					<div class="col-lg-3 col-md-3 col-sm-5 col-xs-3">
+						<img id="Avatar" src="resources/Img/avatar.jpg"/>
 					</div>
 				</div>
 			</div>
-			<!-- VK Widget -->
-			<div id="vk_groups"></div>
+			
+			<!-- <!-- VK Widget -->
+			<!-- <div id="vk_groups"></div>
 			<script type="text/javascript">
 				VK.Widgets.Group("vk_groups", {mode: 1, width: "300"}, 164656697);
-			</script>
+			</script> -->
 			
 			<div id="Photos">
 				<div class="featurebox col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="row" align="center">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/1.jpg"></img>
+							<img src="resources/Img/photos/n1.jpg"/>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/2.jpg"></img>
+							<img src="resources/Img/photos/n2.jpg"/>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/3.jpg"></img>
-						</div>
-					</div>
-					<div class="row" align="center">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/4.jpg"></img>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/5.jpg"></img>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/6.jpg"></img>
+							<img src="resources/Img/photos/n3.jpg"/>
 						</div>
 					</div>
 					<div class="row" align="center">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/7.jpg"></img>
+							<img src="resources/Img/photos/n4.jpg"/>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/8.jpg"></img>
+							<img src="resources/Img/photos/n5.jpg"/>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/9.jpg"></img>
+							<img src="resources/Img/photos/n6.jpg"/>
 						</div>
 					</div>
 					<div class="row" align="center">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/10.jpg"></img>
+							<img src="resources/Img/photos/n7.jpg"/>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/11.jpg"></img>
+							<img src="resources/Img/photos/n8.jpg"/>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-							<img src="resources/Img/photos/12.jpg"></img>
+							<img src="resources/Img/photos/n9.jpg"/>
 						</div>
 					</div>
 				</div>

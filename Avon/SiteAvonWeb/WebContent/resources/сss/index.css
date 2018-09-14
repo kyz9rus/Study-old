@@ -8,14 +8,11 @@
   padding: 5px;
   height: 48px;
   font-size: 14px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background: rgb(97,129,170);
+  background: rgb(47,81,125);
 }
 
 #secondHeader{
+  padding: 20px 0px;
   margin-top: 20px;
   height: 60px;
 }
@@ -28,10 +25,6 @@ a{
   color: white;
 }
 
-a:hover{
-  text-shadow: white 0px 0px 1px;
-}
-
 p{
   color: white;
   text-shadow: black 2px 2px 2px;
@@ -39,6 +32,7 @@ p{
 
 a:hover{
   color: rgb(253,0,150);
+  text-shadow: white 0px 0px 1px;
 }
 
 .smallMenu{
@@ -74,19 +68,19 @@ a:hover{
 }
 
 .headerButtons{
-  font-size: 15px;
+  font-size: 19px;
   width: 150px;
   border-radius: 12px;
 }
 
 .headerButtons:hover{
-  background: rgb(66, 74, 100);
+  background: #FF9136;
   color: white;
 }
 
 .desc_but{
   color: white;
-  font-size: 13px;
+  font-size: 16px;
   text-shadow: black 1px 1px 1px;
 }
 
@@ -96,7 +90,8 @@ a:hover{
 }
 
 .mainLogo{
-  width: 180px;
+/*   width: 180px; */
+    width: 210px;
 }
 
 .altLogo{
@@ -104,8 +99,10 @@ a:hover{
 }
 
 .altLogo img{
-  padding: 10px;
-  width: 130px;
+/*   padding: 10px; */
+/*   width: 130px; */
+  margin-top: -1px;
+  width: 160px;
   float: left;
 }
 
@@ -116,11 +113,12 @@ a:hover{
 }
 
 .mainText{
-  font-size: 26px;
+  margin-top: 70px;
+  font-size: 34px;
 }
 
 .descMainText{
-  font-size: 16px;
+  font-size: 22px;
 }
 
  #secondHeaderPos button:hover{
@@ -146,10 +144,6 @@ a:hover{
   height: 40px;
 }
 
-#Advantages{
-  margin-top: 500px;
-}
-
 .Blocks{
   margin: 10px 2%;
   width: 29%;
@@ -167,7 +161,7 @@ a:hover{
 
 .Blocks h6{
   color: black;
-  text-shadow: white 0px 0px 0px;
+  text-shadow: none;
   font-size: 13px;
   margin: 10px 20px;
 }
@@ -179,7 +173,7 @@ a:hover{
 
 .headerBlock p{
   color: whitesmoke;
-  text-shadow: white 0px 0px 0px;
+  text-shadow: none;
   margin-top: -30px;
   margin-left: 10px;
   text-align: right;
@@ -192,20 +186,29 @@ a:hover{
   margin: 20px 16%;
   height: 40px;
   border-radius: 10px;
-  background: rgb(97, 129, 170);
+  background: #FF9136;
   color: white;
 }
 
+.variants{
+  height: 650px;
+}
+
 #Advantages p:first-child,#wayOfRegistration p:first-child{
+  margin-top: 50px;
   font-size: 26px;
   color: rgb(97, 129, 170);
-  text-shadow: white 1px 1px 1px;
+  text-shadow: none;
   font-weight: bold;
+}
+
+#wayOfRegistration p:first-child{
+  text-shadow: white 2px 0px 0px;
 }
 
 .advantage p{
   color: black;
-  text-shadow: white 0px 0px 0px;
+  text-shadow: none;
   font-size: 12px;
 }
 
@@ -219,7 +222,7 @@ a:hover{
 
 .ways p{
   color: black;
-  text-shadow: white 0px 0px 0px;
+  text-shadow: none;
   font-size: 12px;
 }
 
@@ -234,7 +237,7 @@ a:hover{
   margin: 20px 16%;
   height: 60px;
   border-radius: 10px;
-  background: rgb(97, 129, 170);
+  background: #FF9136;
   color: white;
 }
 
@@ -272,7 +275,7 @@ a:hover{
 #Catalogs p:first-child{
   font-size: 26px;
   font-weight: bold;
-  text-shadow: white 0px 0px 0px;
+  text-shadow: none;
 }
 
 .catalog{
@@ -318,12 +321,22 @@ a:hover{
   margin-top: 10px;
 }
 
-body{
+.mainPart{
+  margin-top: -20px;
+  height: 300px;
   background: url(https://avatars.mds.yandex.net/get-pdb/1337215/166aeec4-cc9c-475c-aadc-e4d220b41d22/s1200) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+body{
+/*   background: url(https://avatars.mds.yandex.net/get-pdb/1337215/166aeec4-cc9c-475c-aadc-e4d220b41d22/s1200) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 
 html, body {
@@ -344,7 +357,7 @@ html, body {
 .footer{
   height: 50px;
   flex: 1 0 auto;
-  background: rgb(97,129,170);
+  background: rgb(47,81,125);
 }
 
 .footer h6{
@@ -358,13 +371,34 @@ html, body {
   margin: 13px;
 }
 
+#toTop{
+  position: fixed;
+  top: 85%;
+  right: 0px;
+  padding: 10px;
+}
+
+#toTop img{
+  width: 50px;
+}
+
 @media(max-width: 800px){
-  body{
+  .mainPart{
+    height: 500px;
     background: url(https://avatars.mds.yandex.net/get-pdb/1220848/e6bda0f0-bf8d-4f1e-90c4-c56f24060385/s1200) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+  }
+  
+  body{
+/*     background: url(https://avatars.mds.yandex.net/get-pdb/1220848/e6bda0f0-bf8d-4f1e-90c4-c56f24060385/s1200) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
   }
   
   .desc_but{

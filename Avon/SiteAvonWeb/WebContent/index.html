@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Твой красивый бизнес с AVON</title>
+	<title>Твой красивый бизнес с Avon</title>
 	
  	<link rel="shortcut icon" href="resources/Img/favicon.ico" type="image/x-icon"/>
 	
@@ -17,7 +17,8 @@
 	
 	 <script> 
 		$(function(){
-		  $(".header").load("resources/html/header.html");
+		  $(".firstHeader").load("resources/html/firstHeader.html");
+		  $(".secondHeader").load("resources/html/secondHeader.html");
 		  $(".footer").load("resources/html/footer.html");
 		});
 	</script>
@@ -27,53 +28,57 @@
 <body>
 <div class="wrapper">
 	<div class="wrapperForFooter">
-		<div class="header"></div>
+		<div class="firstHeader"></div>
 		
-		<div class="content">
-			<div id="Registration">
+		<div class="mainPart">
+			<div class="secondHeader"></div>
+			
+			<div class="altHeader" align="center">
 				<p class="mainText">Заказывай AVON со скидкой</p>
 				<p class="descMainText">Выберите свой вариант регистрации</p>
-				
-				<div class="variants">
-					<div class="Blocks">
-						<div class="headerBlock">
-							<img src="resources/Img/firstBlock2.jpg" alt="Первая картника"></img>
-							<p>Покупатель AVON</p>
-						</div>
-						
-						<div>
-							<h6><b>Для кого:</b> Желающим покупать продукцию со скидкой.</h6>
-							<h6><b>Ваша выгода:</b> Экономия на своем заказе.</h6>
-							<h6><b>Обязанности:</b> Заказы по желанию.</h6>
-						</div>
-						<button class="blockButtons">Регистрация покупателя</button>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="variants">
+				<div class="Blocks">
+					<div class="headerBlock">
+						<img src="resources/Img/main1.jpg" alt="Первая картника"/>
+						<p>Покупатель AVON</p>
 					</div>
-					<div class="Blocks">
-						<div class="headerBlock">
-							<img src="resources/Img/firstBlock2.jpg" alt="Первая картника"></img>
-							<p>Представитель AVON</p>
-						</div>
-						
-						<div>
-							<h6><b>Для кого:</b> Желающим иметь доход от обслуживания клинетов.</h6>
-							<h6><b>Ваша выгода:</b> Доход от продажи заказов.</h6>
-							<h6><b>Обязанности:</b> Заказы для себя и клиентов.</h6>
-						</div>
-						<button class="blockButtons">Регистрация представителя</button>
+					
+					<div>
+						<h6><b>Для кого:</b> Желающим покупать продукцию со скидкой.</h6>
+						<h6><b>Ваша выгода:</b> Экономия на своем заказе.</h6>
+						<h6><b>Обязанности:</b> Заказы по желанию.</h6>
 					</div>
-					<div class="Blocks">
-						<div class="headerBlock">
-							<img src="resources/Img/firstBlock2.jpg" alt="Первая картника"></img>
-							<p>Координатор AVON</p>
-						</div>
-						
-						<div>
-							<h6><b>Для кого:</b> Желающим работать со свободным графиком.</h6>
-							<h6><b>Ваша выгода:</b> Доход с продаж вашей группы.</h6>
-							<h6><b>Обязанности:</b> Регистрация, консультация.</h6>
-						</div>
-						<button class="blockButtons">Регистрация координатора</button>
+					<button class="blockButtons beClient">Регистрация покупателя</button>
+				</div>
+				<div class="Blocks">
+					<div class="headerBlock">
+						<img src="resources/Img/main2.jpg" alt="Первая картника"/>
+						<p>Представитель AVON</p>
 					</div>
+					
+					<div>
+						<h6><b>Для кого:</b> Желающим иметь доход от обслуживания клинетов.</h6>
+						<h6><b>Ваша выгода:</b> Доход от продажи заказов.</h6>
+						<h6><b>Обязанности:</b> Заказы для себя и клиентов.</h6>
+					</div>
+					<button class="blockButtons beRepr">Регистрация представителя</button>
+				</div>
+				<div class="Blocks">
+					<div class="headerBlock">
+						<img src="resources/Img/main3.jpg" alt="Первая картника"/>
+						<p>Координатор AVON</p>
+					</div>
+					
+					<div>
+						<h6><b>Для кого:</b> Желающим работать со свободным графиком.</h6>
+						<h6><b>Ваша выгода:</b> Доход с продаж вашей группы.</h6>
+						<h6><b>Обязанности:</b> Регистрация, консультация.</h6>
+					</div>
+					<button class="blockButtons beCoord">Регистрация координатора</button>
 				</div>
 			</div>
 			
@@ -82,32 +87,32 @@
 				<div class="featurebox col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="row" align="center">
 						<div class="advantage col-lg-2 col-md-2 col-sm-4 col-xs-4">
-							<img src="resources/Img/a11.png" alt="advantage"></img>
+							<img src="resources/Img/a11.png" alt="advantage"/>
 							<p><b>Подарок в каждом заказе</b></p>
 							<h6>Размещай заказ и получай подарки</h6>
 						</div>
 						<div class="advantage col-lg-2 col-md-2 col-sm-4 col-xs-4">
-							<img src="resources/Img/a22.png" alt="advantage"></img>
+							<img src="resources/Img/a22.png" alt="advantage"/>
 							<p><b>Максимальная скидка</b></p>
 							<h6>На первый и последующие заказы</h6>
 						</div>
 						<div class="advantage col-lg-2 col-md-2 col-sm-4 col-xs-4">
-							<img src="resources/Img/a33.png" alt="advantage"></img>
+							<img src="resources/Img/a33.png" alt="advantage"/>
 							<p><b>Покупай для себя</b></p>
 							<h6>Нет обязатльных продаж, но есть скидка</h6>
 						</div>
 						<div class="advantage col-lg-2 col-md-2 col-sm-4 col-xs-4">
-							<img src="resources/Img/a44.png" alt="advantage"></img>
+							<img src="resources/Img/a44.png" alt="advantage"/>
 							<p><b>Удобная доставка</b></p>
 							<h6>Тысячи пунктов выдачи и доставка на дом</h6>
 						</div>
 						<div class="advantage col-lg-2 col-md-2 col-sm-4 col-xs-4">
-							<img src="resources/Img/a55.png" alt="advantage"></img>
+							<img src="resources/Img/a55.png" alt="advantage"/>
 							<p><b>Работа на дому</b></p>
 							<h6>Начни работать через интернет</h6>
 						</div>
 						<div class="advantage col-lg-2 col-md-2 col-sm-4 col-xs-4">
-							<img src="resources/Img/a66.png" alt="advantage"></img>
+							<img src="resources/Img/a66.png" alt="advantage"/>
 							<p><b>Горячая линия</b></p>
 							<h6>Круглосуточные консультации специалистов</h6>
 						</div>
@@ -141,14 +146,14 @@
 				<p>Каталоги Avon</p>
 				
 				<div class="catalog">
-					<img id="imgCat1" src="resources/catalogs/12.jpg" alt=""></img>
+					<img id="imgCat1" src="resources/catalogs/12.jpg"/>
 					<p id="textCat1"><b>Avon </b></p>
 					
 					<a href="https://drive.google.com/drive/u/0/folders/12jMo8T4MNH8Gzhw5fxTh2vpyhJAM0A1V?ogsrc=32" download=""><button></button></a>
 				</div>
 				
 				<div class="catalog">
-					<img id="imgCat2" src="resources/catalogs/11.jpg" alt=""></img>
+					<img id="imgCat2" src="resources/catalogs/11.jpg"/>
 					<p id="textCat2"><b>Avon </b></p>
 					
 					<a href="https://drive.google.com/drive/u/0/folders/12jMo8T4MNH8Gzhw5fxTh2vpyhJAM0A1V?ogsrc=32" download=""><button></button></a>

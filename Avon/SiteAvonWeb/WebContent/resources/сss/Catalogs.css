@@ -7,12 +7,17 @@
 
 .catalog{
   width: 20% !important;
-  margin-left: 16% !important;;
+  margin-left: 16% !important;
+}
+
+.catalog p{
+  color: black;
+  text-shadow: none;
 }
 
 #descCatalogs p{
   color: black;
-  text-shadow: white 0px 0px 0px;
+  text-shadow: none;
 }
 
 @media(max-width: 812px){
@@ -23,12 +28,12 @@
   
   .catalog p{
     color: black;
-    text-shadow: white 0px 0px 0px;
+    text-shadow: none;
   }
   
   #Catalogs{
-    height: 1500px !important;
-    margin-bottom: 380px;
+/*     height: 1500px !important; */
+/*     margin-bottom: 380px; */
   } 
 }
 
@@ -36,12 +41,24 @@
   .catalog p{
     font-size: 12px !important;
     color: black;
-    text-shadow: white 0px 0px 0px;
+    text-shadow: none;
   }
   
   .catalog button{
     width: 10px;
     height: 10px;
     padding: 27px;
+  }
+}
+
+@media(max-width: 706px) and (min-width: 593px){
+  .catalog p{
+    font-size: 18px !important;
+  }
+}
+
+@media(max-width: 333px){
+  .catalog p{
+    font-size: 15px !important;
   }
 }
